@@ -7,7 +7,7 @@ import google.generativeai as genai
 from langchain_google_genai import GoogleGenerativeAI
 
 # Set Tesseract OCR path
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = r"tesseract.exe"
 
 # Initialize Google Generative AI with API Key
 GEMINI_API_KEY = "AIzaSyD1uX9EStt8b7w7wlkM66v9j0DdGUPzS0o"  # Replace with your valid API key
@@ -47,7 +47,7 @@ st.markdown('<div class="subtitle"> Empowering Vision with AI 🗣️</div>', un
 
 # Sidebar Features
 st.sidebar.image(
-    r"C:\Users\HP\OneDrive\Pictures\logo.jpg", width=250
+    r"logo.jpg", width=250
 )
 
 st.sidebar.title("ℹ️ About")
