@@ -53,7 +53,10 @@ st.sidebar.image(
 st.sidebar.title("ℹ️ About")
 st.sidebar.markdown(
     """
+     **SmartvisionAI**
+     
      **🌟 Key Capabilities**
+     
     - 🔍 **Visual Insights**: Receive AI-generated observations about the image, including objects and actionable insights.
     - 📝 **Text Extraction**: Retrieve any visible text from the image using advanced OCR technology.
     - 🔊 **Listen Aloud**: Transform extracted text into clear, audible speech
